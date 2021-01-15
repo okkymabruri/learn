@@ -2,3 +2,7 @@
 .Rproj.user
 .Rhistory
 *.k
+
+# social-media-data-analytics
+
+./social-media-data-analytics/03_data-analysis-visualization-and-exploration/04_data-analytics-with-r/yelp_academic_dataset_user.json.csv
