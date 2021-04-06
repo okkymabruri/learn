@@ -2,18 +2,18 @@
 - [Table of Content](#table-of-content)
 - [Course 1 – Foundations: Data, Data, Everywhere](#course-1--foundations-data-data-everywhere)
   - [Content](#content)
-  - [Transforming data into insights](#transforming-data-into-insights)
-    - [Dimensions of data analytics](#dimensions-of-data-analytics)
-  - [Understanding data ecosystem](#understanding-data-ecosystem)
-    - [Data ecosystems](#data-ecosystems)
-    - [Data-driven decision making](#data-driven-decision-making)
-    - [Origins of the data analysis process](#origins-of-the-data-analysis-process)
-      - [EMC's data analysis life cycle](#emcs-data-analysis-life-cycle)
-      - [SAS' iterative life cycle](#sas-iterative-life-cycle)
-      - [Project-based data analytics life cycle](#project-based-data-analytics-life-cycle)
-      - [Big data analytics life cycle](#big-data-analytics-life-cycle)
-      - [Data life cycle based on research](#data-life-cycle-based-on-research)
+  - [Introducing data analytics](#introducing-data-analytics)
+    - [Transforming data into insights](#transforming-data-into-insights)
+      - [Dimensions of data analytics](#dimensions-of-data-analytics)
+    - [Understanding data ecosystem](#understanding-data-ecosystem)
+      - [Data ecosystems](#data-ecosystems)
+      - [Data-driven decision making](#data-driven-decision-making)
+      - [Origins of the data analysis process](#origins-of-the-data-analysis-process)
   - [Introducing analytical thinking](#introducing-analytical-thinking)
+    - [Thinking about analytical thinking](#thinking-about-analytical-thinking)
+  - [Exploring the wonderful world of data](#exploring-the-wonderful-world-of-data)
+    - [The data analysis process](#the-data-analysis-process)
+    - [Key data analyst tools](#key-data-analyst-tools)
 
 # Course 1 – Foundations: Data, Data, Everywhere
 ## Content
@@ -23,8 +23,8 @@
 * **Setting up a data toolbox**: Spreadsheets, query languages, and data visualization tools are all a big part of a data analyst’s job. In this part of the course, you will learn the basic concepts to use them for data analysis. You will understand how they work through examples provided.
 * **Discovering data career possibilities**: All kinds of businesses value the work that data analysts do. In this part of the course, you will examine different types of businesses and the jobs and tasks that analysts do for them. You will also learn how a Google Data Analytics Certificate will help you meet many of the requirements for a position with these organizations.
 * **Completing the Course Challenge**: At the end of this course, you will be able to put everything you have learned into perspective with the Course Challenge. The Course Challenge will ask you questions about the main concepts you have learned and then give you an opportunity to apply those concepts in two scenarios.
-
-## Transforming data into insights
+## Introducing data analytics
+### Transforming data into insights
 The six steps of the data analysis process: ask, prepare, process, analyze, share, and act
 
 1. Ask questions and define the problem.
@@ -34,7 +34,7 @@ The six steps of the data analysis process: ask, prepare, process, analyze, shar
 5. Share data with your audience.
 6. Act on the data and use the analysis results.
 
-### Dimensions of data analytics
+#### Dimensions of data analytics
 
 Three disciplines:
 * Statistics: make a few important decisions under uncertainty. Important key: Rigor
@@ -42,15 +42,15 @@ Three disciplines:
 many decisions under uncertainty. Important key: Performance
 * Analytics: want to know how many decisions you want to make before you begin. Important key: Speed
 
-## Understanding data ecosystem
+### Understanding data ecosystem
 
-### Data ecosystems 
+#### Data ecosystems 
 Data ecosystems are made up of various elements that interact with one another in order to produce, manage, store, organize, analyze, and share data
 
-### Data-driven decision making
+#### Data-driven decision making
 no matter how valuable data-driven decision-making is, data alone will never be as powerful as data combined with human experience, observation, and sometimes even intuition. 
 
-### Origins of the data analysis process
+#### Origins of the data analysis process
 
 * Ask: Business Challenge/Objective/Question
 * Prepare: Data generation, collection, storage, and data management
@@ -60,7 +60,7 @@ no matter how valuable data-driven decision-making is, data alone will never be 
 * Act:  Putting your insights to work to solve the problem
 
 
-#### EMC's data analysis life cycle
+**EMC's data analysis life cycle**
 
 EMC Corporation's data analytics life cycle is cyclical with six steps:
 
@@ -74,7 +74,7 @@ EMC Corporation's data analytics life cycle is cyclical with six steps:
 https://infocus.delltechnologies.com/david_dietrich/the-genesis-of-emcs-data-analytics-lifecycle/
 
 
-#### SAS' iterative life cycle
+**SAS' iterative life cycle**
 
 An iterative life cycle was created by a company called SAS, a leading data analytics solutions provider. It can be used to produce repeatable, reliable, and predictive results: 
 
@@ -88,7 +88,7 @@ An iterative life cycle was created by a company called SAS, a leading data anal
 
 https://www.sas.com/content/dam/SAS/en_us/doc/whitepaper1/manage-analytical-life-cycle-continuous-innovation-106179.pdf
 
-#### Project-based data analytics life cycle 
+**Project-based data analytics life cycle**
 
 A project-based data analytics life cycle has five simple steps:
 
@@ -100,7 +100,7 @@ A project-based data analytics life cycle has five simple steps:
 
 http://pingax.com/understanding-data-analytics-project-life-cycle/
 
-#### Big data analytics life cycle
+**Big data analytics life cycle**
 
 Authors Thomas Erl, Wajid Khattak, and Paul Buhler proposed a big data analytics life cycle in their book, **Big Data Fundamentals: Concepts, Drivers & Techniques**. Their life cycle suggests phases divided into nine steps:
 
@@ -116,7 +116,7 @@ Authors Thomas Erl, Wajid Khattak, and Paul Buhler proposed a big data analytics
 
 https://www.informit.com/articles/article.aspx?p=2473128&seqNum=11&ranMID=24808
 
-#### Data life cycle based on research
+**Data life cycle based on research**
 
 One final data life cycle informed by Harvard University research has eight phases:
 
@@ -133,123 +133,68 @@ https://online.hbs.edu/blog/post/data-life-
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Introducing analytical thinking
+Analytical skills are qualities and characteristics associated with solving problems using facts. Five key skills in analytical thinking:
+
+1. Curiosity: a desire to know more about something, asking the right questions
+2. Understanding context: The analytical skill that has to do with how you group things into categories
+3. Having a technical mindset: The analytical skill that involves breaking processes down into smaller steps and working with them in an orderly, logical way
+4. Data design: Analytical skills that involve how you organize information
+5. Data strategy: The analytical skill that involves managing the processes and tools used in data analysis
+
+### Thinking about analytical thinking
+
+Analytical thinking involves identifying and defining a problem and then solving it by using data in an organized, step-by-step manner
+
+5 aspects of analytical thinking:
+* Visualization
+* Strategy
+* Problem-orientation
+* Correlation
+* Big-picture and detail-oriented thinking
+
+Questions data analysts ask when they're on the hunt for a solution.
+* What is the root cause of a problem? Ask "why" 5 times
+* Where are the gaps in our process?
+
+Gap analysis lets you examine and evaluate how a process works currently in order to get where you want to be in the future. Businesses conduct gap analysis to do all kinds of things, such as improve a product or become more efficient.
+
+The general approach to gap analysis is
+understanding where you are now
+compared to where you want to be. 
+
+* What did we not consider before? 
+
+## Exploring the wonderful world of data
+
+### The data analysis process
+
+![the-data-analysis-process.png](foundations-data/the-data-analysis-process.png)
+
+### Key data analyst tools
+* Spreadsheets: Microsoft Excel and Google Sheets
+* Databases and query languages: MySQL, Microsoft SQL Server, and BigQuery
+* Visualization tools: Tableau and Looker.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
