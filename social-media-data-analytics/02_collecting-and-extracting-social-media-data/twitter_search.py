@@ -86,37 +86,6 @@ def tw_oauth(authfile):
     auth1.set_access_token(ak[2].replace("\n",""), ak[3].replace("\n",""))
     return tweepy.API(auth1)
 
-def tw_search_json(query, cnt=5):
-    authfile = './twitter_auth.k'
-    api = tw_oauth(authfile)
-    results = {}
-    meta = {
-        'username': 'text',
-        'usersince': 'date',
-        'followers': 'numeric',
-        'friends': 'numeric',
-        'authorid': 'text',
-        'authorloc': 'geo',
-        'geoenable': 'boolean',
-        'source': 'text'
-    }
-    data = []
-    for tweet in tweepy.Cursor(api.search, q=query, count=cnt).items():
-        dTwt = {}
-        dTwt['username'] = tweet.author.name
-        dTwt['usersince'] = tweet.author.created_at      #author/user profile creation date
-        dTwt['followers'] = tweet.author.followers_count #number of author/user followers (inlink)
-        dTwt['friends']   = tweet.author.friends_count   #number of author/user friends (outlink)
-        dTwt['authorid']  = tweet.author.id              #author/user ID#
-        dTwt['authorloc'] = tweet.author.location        #author/user location
-        dTwt['geoenable'] = tweet.author.geo_enabled     #is author/user account geo enabled?
-        dTwt['source']    = tweet.source                 #platform source for tweet
-        data.append(dTwt)
-    results['meta'] = meta
-    results['data'] = data
-    return results
-
-
 # TWEEPY SEARCH FUNCTION
 def tw_search(api):
     counter = 0
@@ -131,7 +100,7 @@ def tw_search(api):
                                 g = ge,
                                 lang = l,
                                 result_type = t,
-                                count = c).items():
+                                ).items(c):
 
         #TWEET INFO
         created = tweet.created_at   #tweet created
@@ -173,7 +142,7 @@ def main():
 
     # Geo-coordinates of five metropolitan areas
     # London, NYC (lower, middle, upper), Wash DC, San Francisco, New Brunswick (NJ)
-    locords =  {'lo': '0, 51.503, 20km',
+    locords =  {'lo': '0, 51.503, 200km',
                 'nyl': '-74, 40.73, 2mi',
                 'nym': '-74, 40.74, 2mi',
                 'nyu': '-73.96, 40.78, 2mi',
@@ -181,7 +150,7 @@ def main():
                 'sf': '-122.45, 37.74, 5km',
                 'nb': '-74.45, 40.49, 2mi'}
     # Maximum allowed tweet count (note: Twitter sets this to ~180 per 15 minutes)
-    cmax = 50
+    cmax = 500
     # OAuth key file
     authfile = './auth.k'
 

@@ -12,7 +12,7 @@ auth1.set_access_token(ak[2].replace("\n",""), ak[3].replace("\n",""))
 api = tweepy.API(auth1, wait_on_rate_limit = True, wait_on_rate_limit_notify = True)
 
 # Tweeter search with keyword
-target_num = 500
+target_num = 200
 query = "jokowi"
 
 csvFile = open('results_jokowi_en.csv','w')
